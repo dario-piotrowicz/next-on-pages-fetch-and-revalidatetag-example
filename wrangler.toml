@@ -32,9 +32,9 @@ compatibility_flags = ["nodejs_compat"]
 # Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#kv-namespaces
 # KV Example:
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+[[kv_namespaces]]
+binding = "__NEXT_ON_PAGES__KV_SUSPENSE_CACHE"
+id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # Bind a Queue producer. Use this binding to schedule an arbitrary task that may be processed later by a Queue consumer.
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#queue-producers
@@ -53,4 +53,3 @@ compatibility_flags = ["nodejs_compat"]
 # [[services]]
 # binding = "MY_SERVICE"
 # service = "my-service"
-
