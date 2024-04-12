@@ -1,5 +1,5 @@
 {
-  "name": "next-kv-cache-issue-repro",
+  "name": "next-on-pages-fetch-and-revalidatetag-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
